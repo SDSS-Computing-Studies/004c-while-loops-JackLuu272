@@ -16,3 +16,13 @@ Example:
 10
 ...
 """
+import time
+import random
+
+count = 2
+
+while True:
+    print(str(count))
+    count = count + 2
+    if count > 20:
+        break
