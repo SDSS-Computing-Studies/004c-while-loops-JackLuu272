@@ -20,17 +20,15 @@ That is an even integer
 
 """
  
-number = str(float(""))
+number = str(float("enter a number: "))
 
-x = number % 2
+while number == str(float("enter a number: ")):
+    x = number % 2
+    if x == 0:
+        print("That is an even integer")
+    else:
+        print("That is not an even integer")
 
-x > 0
-while True:
-    print("That is not an even integer")
-    if x ==0:
-        break 
-
-print("That is an even integer")
         
     
 
