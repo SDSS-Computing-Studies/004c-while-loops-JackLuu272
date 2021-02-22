@@ -16,8 +16,7 @@ Example:
 10
 ...
 """
-import time
-import random
+
 
 count = 2
 
