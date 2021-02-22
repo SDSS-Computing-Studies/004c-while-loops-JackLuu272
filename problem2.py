@@ -15,3 +15,15 @@ example:
 Enter a number: 4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+
+i = 0
+
+while i < 12:
+    count = input("Enter a number: ")
+    while True:
+        print(str(count))
+        count = count*2
+        if i < 12:
+            break
+
+
