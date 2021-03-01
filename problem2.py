@@ -18,11 +18,7 @@ Enter a number: 4
 
 count = input("Enter a number: ")
 
-while True:
-    print(str(count))
-    count = int(count) + int(count)
-    if count > 12*count:
-        break
+while 
     
 
 

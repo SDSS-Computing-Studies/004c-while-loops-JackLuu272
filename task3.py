@@ -19,16 +19,17 @@ Enter number:4
 That is an even integer
 
 """
- 
-number = str(float("enter a number: "))
 
-while number == str(float("enter a number: ")):
-    x = number % 2
-    if x == 0:
+x = ""
+y = ""
+
+while y != 0:
+    x = float(input("Enter number:"))
+    y = x % 2
+    if y == 0:
         print("That is an even integer")
+        break
     else:
         print("That is not an even integer")
-
-        
     
 
