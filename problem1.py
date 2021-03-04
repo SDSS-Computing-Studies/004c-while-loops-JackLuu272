@@ -18,7 +18,7 @@ Access granted
 Access denied
 """
 
-count = 0
+count = 1
 
 while count < 4:
     username = input("username: ")
