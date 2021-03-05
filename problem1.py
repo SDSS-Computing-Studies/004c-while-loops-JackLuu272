@@ -17,16 +17,15 @@ outputs:
 Access granted
 Access denied
 """
-username = str("")
-password = str("")
-count = 1
+
+count = 0
 
 while count < 4:
     username = input("username: ")
     password = input("password: ")
     if username == "admin" and password == "12345":
         print("Access granted")
-        break
+        count = 5
     else:
         print("Access denied")
     count += 1
