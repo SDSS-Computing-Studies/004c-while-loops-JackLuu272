@@ -21,8 +21,8 @@ Access denied
 count = 1
 
 while count < 4:
-    username = input("username: ")
-    password = input("password: ")
+    username = input("username: ").strip
+    password = input("password: ").strip
     if username == "admin" and password == "12345":
         print("Access granted")
         break
