@@ -16,9 +16,13 @@ Enter a number: 4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
 
-count = input("Enter a number: ")
+number = int(input("Enter a number: "))
+count = 1
 
-while 
+while count < 13:
+    x = number*count
+    print(x, end=" ")
+    count += 1
     
 
 

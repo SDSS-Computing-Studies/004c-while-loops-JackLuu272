@@ -13,3 +13,16 @@ after the number in the sequence is greater than 100:
 Example:
 1 1 2 3 5 ...
 """
+
+number = int(input("Enter a number: "))
+n1 = 0
+n2 = 1
+count = 1
+
+while count < 101:
+    nth = n1 + n2
+    n1 = n2 
+    n2 = nth
+    print(n1, end=" ")
+    if n1 > 100:
+        break
