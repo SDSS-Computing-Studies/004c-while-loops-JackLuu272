@@ -25,11 +25,10 @@ password = str("")
 while count < 4 and username != "admin" and password != "12345":
     username = input("username: ")
     password = input("password: ")
-    if username == "admin" and password == "12345":
-        print("Access granted")
-    else:
-        print("Access denied")
+    if username != "admin" and password != "12345":
         count += 1
-
+        print("Access denied")
+    else:
+        print("Access granted")
 
 
